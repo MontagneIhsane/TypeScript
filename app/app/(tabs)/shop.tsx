@@ -24,12 +24,11 @@ export default function Index() {
         });
     }, []);
 
-  // Affiche un produit sélectionné dans un modal
     const handleSelectProduct = (product) => {
     setSelectedProduct(product);
     };
 
-  // Ferme le modal
+
     const handleCloseModal = () => {
     setSelectedProduct(null);
     };
@@ -56,7 +55,7 @@ export default function Index() {
         keyExtractor={(item) => item.id.toString()}
         />
 
-      {/* Modal pour afficher le produit en grand */}
+
         <Modal
         visible={selectedProduct !== null}
         transparent={true}

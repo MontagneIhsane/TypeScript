@@ -41,7 +41,7 @@ export default function Index() {
       <View style={styles.content}>
         <Text style={styles.title}>Welcome</Text>
         <Text style={styles.description}>
-          This is a simple description below the title.
+          This is a new application were you can shop for clothes and get the new soldes of your favorite brands.
         </Text>
       </View>
     </View>

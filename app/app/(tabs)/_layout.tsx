@@ -13,15 +13,15 @@ export default function TabLayout() {
         }}
       />
         <Tabs.Screen
-        name="matchs"
+        name="shop"
         options={{
-          title: 'Match',
+          title: 'Shop',
         }}
       />
         <Tabs.Screen
-        name="player"
+        name="solde"
         options={{
-          title: 'Player',
+          title: 'Solde',
         }}
       />
     </Tabs>
